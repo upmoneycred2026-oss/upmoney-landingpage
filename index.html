@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpMoney | Crédito Inteligente</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --black: #000000;
+            --carbon: #1a1a1a;
+            --gray-light: #e0e0e0;
+            --gray-medium: #888888;
+        }
+
+        body {
+            background-color: var(--black);
+            color: var(--gray-light);
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 400px;
+            width: 100%;
+        }
+
+        .logo-placeholder {
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(145deg, #1e1e1e, #000);
+            border: 1px solid #333;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: -1px;
+        }
+
+        p {
+            color: var(--gray-medium);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            line-height: 1.5;
+        }
+
+        .btn-whatsapp {
+            background-color: var(--gray-light);
+            color: var(--black);
+            text-decoration: none;
+            padding: 18px 30px;
+            border-radius: 12px;
+            font-weight: 700;
+            display: block;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 15px rgba(255,255,255,0.1);
+        }
+
+        .btn-whatsapp:hover {
+            transform: scale(1.02);
+            background-color: #ffffff;
+        }
+
+        .features {
+            margin-top: 50px;
+            display: grid;
+            gap: 15px;
+            text-align: left;
+        }
+
+        .feature-item {
+            background: var(--carbon);
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #222;
+            font-size: 0.9rem;
+        }
+
+        .feature-item span {
+            color: #fff;
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo-placeholder">
+            <img src="logo.png" alt="UpMoney" style="width: 80%; height: auto;">
+        </div>
+
+        <h1>UPMONEY</h1>
+        <p>Crédito consignado e privado com a rapidez que você merece.</p>
+
+        <a href="https://wa.me/5585997507365?text=Olá! Quero simular meu crédito com a UpMoney" class="btn-whatsapp">
+            Simular meu Crédito Agora
+        </a>
+
+        <div class="features">
+            <div class="feature-item">
+                <span>Público & Privado</span>
+                As melhores taxas do mercado para servidores e empresas.
+            </div>
+            <div class="feature-item">
+                <span>Rápido como um PIX</span>
+                Processo 100% digital e sem burocracia.
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
